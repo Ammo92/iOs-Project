@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D975627B21A89D86000DFBD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D975627A21A89D86000DFBD9 /* AppDelegate.swift */; };
+		D975627D21A89D86000DFBD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D975627C21A89D86000DFBD9 /* ViewController.swift */; };
+		D975628021A89D86000DFBD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D975627E21A89D86000DFBD9 /* Main.storyboard */; };
+		D975628221A89D87000DFBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D975628121A89D87000DFBD9 /* Assets.xcassets */; };
+		D975628521A89D87000DFBD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D975628321A89D87000DFBD9 /* LaunchScreen.storyboard */; };
+		D975628A21A89D87000DFBD9 /* LedProject WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D975628921A89D87000DFBD9 /* LedProject WatchKit App.app */; };
+		D975629021A89D87000DFBD9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D975628E21A89D87000DFBD9 /* Interface.storyboard */; };
+		D975629221A89D88000DFBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D975629121A89D88000DFBD9 /* Assets.xcassets */; };
+		D975629921A89D88000DFBD9 /* LedProject WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D975629821A89D88000DFBD9 /* LedProject WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D975629E21A89D88000DFBD9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D975629D21A89D88000DFBD9 /* InterfaceController.swift */; };
+		D97562A021A89D88000DFBD9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D975629F21A89D88000DFBD9 /* ExtensionDelegate.swift */; };
+		D97562A221A89D88000DFBD9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97562A121A89D88000DFBD9 /* NotificationController.swift */; };
+		D97562A421A89D88000DFBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97562A321A89D88000DFBD9 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D975628B21A89D87000DFBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D975626F21A89D86000DFBD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D975628821A89D87000DFBD9;
+			remoteInfo = "LedProject WatchKit App";
+		};
+		D975629A21A89D88000DFBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D975626F21A89D86000DFBD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D975629721A89D88000DFBD9;
+			remoteInfo = "LedProject WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D97562AC21A89D89000DFBD9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D975629921A89D88000DFBD9 /* LedProject WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97562B021A89D89000DFBD9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D975628A21A89D87000DFBD9 /* LedProject WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D975627721A89D86000DFBD9 /* LedProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LedProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D975627A21A89D86000DFBD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D975627C21A89D86000DFBD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D975627F21A89D86000DFBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D975628121A89D87000DFBD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D975628421A89D87000DFBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D975628621A89D87000DFBD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D975628921A89D87000DFBD9 /* LedProject WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LedProject WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D975628F21A89D87000DFBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D975629121A89D88000DFBD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D975629321A89D88000DFBD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D975629821A89D88000DFBD9 /* LedProject WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LedProject WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D975629D21A89D88000DFBD9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D975629F21A89D88000DFBD9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D97562A121A89D88000DFBD9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D97562A321A89D88000DFBD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D97562A521A89D89000DFBD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97562A621A89D89000DFBD9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D975627421A89D86000DFBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D975629521A89D88000DFBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D975626E21A89D86000DFBD9 = {
+			isa = PBXGroup;
+			children = (
+				D975627921A89D86000DFBD9 /* LedProject */,
+				D975628D21A89D87000DFBD9 /* LedProject WatchKit App */,
+				D975629C21A89D88000DFBD9 /* LedProject WatchKit Extension */,
+				D975627821A89D86000DFBD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D975627821A89D86000DFBD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D975627721A89D86000DFBD9 /* LedProject.app */,
+				D975628921A89D87000DFBD9 /* LedProject WatchKit App.app */,
+				D975629821A89D88000DFBD9 /* LedProject WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D975627921A89D86000DFBD9 /* LedProject */ = {
+			isa = PBXGroup;
+			children = (
+				D975627A21A89D86000DFBD9 /* AppDelegate.swift */,
+				D975627C21A89D86000DFBD9 /* ViewController.swift */,
+				D975627E21A89D86000DFBD9 /* Main.storyboard */,
+				D975628121A89D87000DFBD9 /* Assets.xcassets */,
+				D975628321A89D87000DFBD9 /* LaunchScreen.storyboard */,
+				D975628621A89D87000DFBD9 /* Info.plist */,
+			);
+			path = LedProject;
+			sourceTree = "<group>";
+		};
+		D975628D21A89D87000DFBD9 /* LedProject WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D975628E21A89D87000DFBD9 /* Interface.storyboard */,
+				D975629121A89D88000DFBD9 /* Assets.xcassets */,
+				D975629321A89D88000DFBD9 /* Info.plist */,
+			);
+			path = "LedProject WatchKit App";
+			sourceTree = "<group>";
+		};
+		D975629C21A89D88000DFBD9 /* LedProject WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D975629D21A89D88000DFBD9 /* InterfaceController.swift */,
+				D975629F21A89D88000DFBD9 /* ExtensionDelegate.swift */,
+				D97562A121A89D88000DFBD9 /* NotificationController.swift */,
+				D97562A321A89D88000DFBD9 /* Assets.xcassets */,
+				D97562A521A89D89000DFBD9 /* Info.plist */,
+				D97562A621A89D89000DFBD9 /* PushNotificationPayload.apns */,
+			);
+			path = "LedProject WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D975627621A89D86000DFBD9 /* LedProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97562B121A89D89000DFBD9 /* Build configuration list for PBXNativeTarget "LedProject" */;
+			buildPhases = (
+				D975627321A89D86000DFBD9 /* Sources */,
+				D975627421A89D86000DFBD9 /* Frameworks */,
+				D975627521A89D86000DFBD9 /* Resources */,
+				D97562B021A89D89000DFBD9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D975628C21A89D87000DFBD9 /* PBXTargetDependency */,
+			);
+			name = LedProject;
+			productName = LedProject;
+			productReference = D975627721A89D86000DFBD9 /* LedProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D975628821A89D87000DFBD9 /* LedProject WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97562AD21A89D89000DFBD9 /* Build configuration list for PBXNativeTarget "LedProject WatchKit App" */;
+			buildPhases = (
+				D975628721A89D87000DFBD9 /* Resources */,
+				D97562AC21A89D89000DFBD9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D975629B21A89D88000DFBD9 /* PBXTargetDependency */,
+			);
+			name = "LedProject WatchKit App";
+			productName = "LedProject WatchKit App";
+			productReference = D975628921A89D87000DFBD9 /* LedProject WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D975629721A89D88000DFBD9 /* LedProject WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97562A921A89D89000DFBD9 /* Build configuration list for PBXNativeTarget "LedProject WatchKit Extension" */;
+			buildPhases = (
+				D975629421A89D88000DFBD9 /* Sources */,
+				D975629521A89D88000DFBD9 /* Frameworks */,
+				D975629621A89D88000DFBD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LedProject WatchKit Extension";
+			productName = "LedProject WatchKit Extension";
+			productReference = D975629821A89D88000DFBD9 /* LedProject WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D975626F21A89D86000DFBD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Mohamed Gasmi";
+				TargetAttributes = {
+					D975627621A89D86000DFBD9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D975628821A89D87000DFBD9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D975629721A89D88000DFBD9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D975627221A89D86000DFBD9 /* Build configuration list for PBXProject "LedProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D975626E21A89D86000DFBD9;
+			productRefGroup = D975627821A89D86000DFBD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D975627621A89D86000DFBD9 /* LedProject */,
+				D975628821A89D87000DFBD9 /* LedProject WatchKit App */,
+				D975629721A89D88000DFBD9 /* LedProject WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D975627521A89D86000DFBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D975628521A89D87000DFBD9 /* LaunchScreen.storyboard in Resources */,
+				D975628221A89D87000DFBD9 /* Assets.xcassets in Resources */,
+				D975628021A89D86000DFBD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D975628721A89D87000DFBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D975629221A89D88000DFBD9 /* Assets.xcassets in Resources */,
+				D975629021A89D87000DFBD9 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D975629621A89D88000DFBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97562A421A89D88000DFBD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D975627321A89D86000DFBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D975627D21A89D86000DFBD9 /* ViewController.swift in Sources */,
+				D975627B21A89D86000DFBD9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D975629421A89D88000DFBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97562A221A89D88000DFBD9 /* NotificationController.swift in Sources */,
+				D97562A021A89D88000DFBD9 /* ExtensionDelegate.swift in Sources */,
+				D975629E21A89D88000DFBD9 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D975628C21A89D87000DFBD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D975628821A89D87000DFBD9 /* LedProject WatchKit App */;
+			targetProxy = D975628B21A89D87000DFBD9 /* PBXContainerItemProxy */;
+		};
+		D975629B21A89D88000DFBD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D975629721A89D88000DFBD9 /* LedProject WatchKit Extension */;
+			targetProxy = D975629A21A89D88000DFBD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D975627E21A89D86000DFBD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D975627F21A89D86000DFBD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D975628321A89D87000DFBD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D975628421A89D87000DFBD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D975628E21A89D87000DFBD9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D975628F21A89D87000DFBD9 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D97562A721A89D89000DFBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D97562A821A89D89000DFBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D97562AA21A89D89000DFBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LedProject WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ammo.LedProject.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		D97562AB21A89D89000DFBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LedProject WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ammo.LedProject.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		D97562AE21A89D89000DFBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = LedProject_WatchKit_Extension;
+				INFOPLIST_FILE = "LedProject WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Ammo.LedProject.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		D97562AF21A89D89000DFBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = LedProject_WatchKit_Extension;
+				INFOPLIST_FILE = "LedProject WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Ammo.LedProject.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		D97562B221A89D89000DFBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LedProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ammo.LedProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D97562B321A89D89000DFBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LedProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ammo.LedProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D975627221A89D86000DFBD9 /* Build configuration list for PBXProject "LedProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97562A721A89D89000DFBD9 /* Debug */,
+				D97562A821A89D89000DFBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97562A921A89D89000DFBD9 /* Build configuration list for PBXNativeTarget "LedProject WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97562AA21A89D89000DFBD9 /* Debug */,
+				D97562AB21A89D89000DFBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97562AD21A89D89000DFBD9 /* Build configuration list for PBXNativeTarget "LedProject WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97562AE21A89D89000DFBD9 /* Debug */,
+				D97562AF21A89D89000DFBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97562B121A89D89000DFBD9 /* Build configuration list for PBXNativeTarget "LedProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97562B221A89D89000DFBD9 /* Debug */,
+				D97562B321A89D89000DFBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D975626F21A89D86000DFBD9 /* Project object */;
+}
