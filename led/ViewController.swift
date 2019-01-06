@@ -21,6 +21,13 @@ class ViewController: UIViewController, ChromaColorPickerDelegate,WCSessionDeleg
         
     }
     
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any], replyHandler: @escaping ([String : Any]) -> Void) {
+        let red = message["red"] as! String
+        let blue = message["blue"] as! String
+        let green = message["green"] as! String
+        changeColor(red : red,blue: blue,green: green)
+    }
+    
     func sessionDidBecomeInactive(_ session: WCSession) {
         
     }
