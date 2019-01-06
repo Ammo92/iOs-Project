@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1694CC50D2970FE05C39F097 /* Pods_led.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAFA7C225668775ADD4DA85 /* Pods_led.framework */; };
+		BF7C6974CAD2267732192D72 /* Pods_led_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3293A53E09F7C637596D535 /* Pods_led_WatchKit_App.framework */; };
 		D9208C3921BD713B00F02DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9208C3821BD713B00F02DE5 /* AppDelegate.swift */; };
 		D9208C3B21BD713B00F02DE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9208C3A21BD713B00F02DE5 /* ViewController.swift */; };
 		D9208C3E21BD713B00F02DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9208C3C21BD713B00F02DE5 /* Main.storyboard */; };
@@ -20,6 +22,9 @@
 		D9208C5E21BD713D00F02DE5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9208C5D21BD713D00F02DE5 /* ExtensionDelegate.swift */; };
 		D9208C6021BD713D00F02DE5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9208C5F21BD713D00F02DE5 /* NotificationController.swift */; };
 		D9208C6221BD713E00F02DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9208C6121BD713E00F02DE5 /* Assets.xcassets */; };
+		D9208C7521BD765400F02DE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9208C7421BD765400F02DE5 /* GoogleService-Info.plist */; };
+		D9208C7721BDCE2A00F02DE5 /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9208C7621BDCE2A00F02DE5 /* color.swift */; };
+		EA654F4CFAF750CA70CF4C87 /* Pods_led_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF171194B1921E4D21F22345 /* Pods_led_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +70,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4527B99B6A145CC7E615A526 /* Pods-led WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-led WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-led WatchKit App/Pods-led WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		A3293A53E09F7C637596D535 /* Pods_led_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_led_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF171194B1921E4D21F22345 /* Pods_led_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_led_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE50F88BC1687915D6B24CD4 /* Pods-led.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-led.release.xcconfig"; path = "Pods/Target Support Files/Pods-led/Pods-led.release.xcconfig"; sourceTree = "<group>"; };
+		C4D08C9CF9B0257A7D5E96DD /* Pods-led.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-led.debug.xcconfig"; path = "Pods/Target Support Files/Pods-led/Pods-led.debug.xcconfig"; sourceTree = "<group>"; };
 		D9208C3521BD713B00F02DE5 /* led.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = led.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9208C3821BD713B00F02DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9208C3A21BD713B00F02DE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,13 +93,28 @@
 		D9208C6121BD713E00F02DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9208C6321BD713E00F02DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9208C6421BD713E00F02DE5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D9208C7421BD765400F02DE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D9208C7621BDCE2A00F02DE5 /* color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
+		ECDCD19437FFB404473EB7AF /* Pods-led WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-led WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-led WatchKit Extension/Pods-led WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		FEAFA7C225668775ADD4DA85 /* Pods_led.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_led.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE9925AC75E27608EAB5925 /* Pods-led WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-led WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-led WatchKit Extension/Pods-led WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		FF3EBB4FEA43F21D092F9543 /* Pods-led WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-led WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-led WatchKit App/Pods-led WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CA7756277F87602FFAB42FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7C6974CAD2267732192D72 /* Pods_led_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9208C3221BD713B00F02DE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1694CC50D2970FE05C39F097 /* Pods_led.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,19 +122,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA654F4CFAF750CA70CF4C87 /* Pods_led_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4378A5ED846A49251F0A291D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEAFA7C225668775ADD4DA85 /* Pods_led.framework */,
+				A3293A53E09F7C637596D535 /* Pods_led_WatchKit_App.framework */,
+				AF171194B1921E4D21F22345 /* Pods_led_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5ED1AEBC93585CE8C93604D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4D08C9CF9B0257A7D5E96DD /* Pods-led.debug.xcconfig */,
+				BE50F88BC1687915D6B24CD4 /* Pods-led.release.xcconfig */,
+				4527B99B6A145CC7E615A526 /* Pods-led WatchKit App.debug.xcconfig */,
+				FF3EBB4FEA43F21D092F9543 /* Pods-led WatchKit App.release.xcconfig */,
+				FEE9925AC75E27608EAB5925 /* Pods-led WatchKit Extension.debug.xcconfig */,
+				ECDCD19437FFB404473EB7AF /* Pods-led WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D9208C2C21BD713B00F02DE5 = {
 			isa = PBXGroup;
 			children = (
+				D9208C7421BD765400F02DE5 /* GoogleService-Info.plist */,
 				D9208C3721BD713B00F02DE5 /* led */,
 				D9208C4B21BD713D00F02DE5 /* led WatchKit App */,
 				D9208C5A21BD713D00F02DE5 /* led WatchKit Extension */,
 				D9208C3621BD713B00F02DE5 /* Products */,
+				5ED1AEBC93585CE8C93604D4 /* Pods */,
+				4378A5ED846A49251F0A291D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +184,7 @@
 				D9208C3F21BD713C00F02DE5 /* Assets.xcassets */,
 				D9208C4121BD713C00F02DE5 /* LaunchScreen.storyboard */,
 				D9208C4421BD713C00F02DE5 /* Info.plist */,
+				D9208C7621BDCE2A00F02DE5 /* color.swift */,
 			);
 			path = led;
 			sourceTree = "<group>";
@@ -166,10 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9208C6F21BD713E00F02DE5 /* Build configuration list for PBXNativeTarget "led" */;
 			buildPhases = (
+				665A1215F760DA898B3D6ECB /* [CP] Check Pods Manifest.lock */,
 				D9208C3121BD713B00F02DE5 /* Sources */,
 				D9208C3221BD713B00F02DE5 /* Frameworks */,
 				D9208C3321BD713B00F02DE5 /* Resources */,
 				D9208C6E21BD713E00F02DE5 /* Embed Watch Content */,
+				5BDD1A548401015669EDAE70 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,8 +240,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9208C6B21BD713E00F02DE5 /* Build configuration list for PBXNativeTarget "led WatchKit App" */;
 			buildPhases = (
+				70C3D070E80A4AB17C11CA82 /* [CP] Check Pods Manifest.lock */,
 				D9208C4521BD713D00F02DE5 /* Resources */,
 				D9208C6A21BD713E00F02DE5 /* Embed App Extensions */,
+				CA7756277F87602FFAB42FE0 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9208C6721BD713E00F02DE5 /* Build configuration list for PBXNativeTarget "led WatchKit Extension" */;
 			buildPhases = (
+				411964BD7BD09E4D662F2B3F /* [CP] Check Pods Manifest.lock */,
 				D9208C5221BD713D00F02DE5 /* Sources */,
 				D9208C5321BD713D00F02DE5 /* Frameworks */,
 				D9208C5421BD713D00F02DE5 /* Resources */,
@@ -262,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9208C4321BD713C00F02DE5 /* LaunchScreen.storyboard in Resources */,
+				D9208C7521BD765400F02DE5 /* GoogleService-Info.plist in Resources */,
 				D9208C4021BD713C00F02DE5 /* Assets.xcassets in Resources */,
 				D9208C3E21BD713B00F02DE5 /* Main.storyboard in Resources */,
 			);
@@ -286,11 +345,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		411964BD7BD09E4D662F2B3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-led WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BDD1A548401015669EDAE70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-led/Pods-led-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-led/Pods-led-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665A1215F760DA898B3D6ECB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-led-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70C3D070E80A4AB17C11CA82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-led WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9208C3121BD713B00F02DE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9208C7721BDCE2A00F02DE5 /* color.swift in Sources */,
 				D9208C3B21BD713B00F02DE5 /* ViewController.swift in Sources */,
 				D9208C3921BD713B00F02DE5 /* AppDelegate.swift in Sources */,
 			);
@@ -465,6 +606,7 @@
 		};
 		D9208C6821BD713E00F02DE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE9925AC75E27608EAB5925 /* Pods-led WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -487,6 +629,7 @@
 		};
 		D9208C6921BD713E00F02DE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDCD19437FFB404473EB7AF /* Pods-led WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +652,7 @@
 		};
 		D9208C6C21BD713E00F02DE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4527B99B6A145CC7E615A526 /* Pods-led WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -528,6 +672,7 @@
 		};
 		D9208C6D21BD713E00F02DE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3EBB4FEA43F21D092F9543 /* Pods-led WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -547,6 +692,7 @@
 		};
 		D9208C7021BD713E00F02DE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D08C9CF9B0257A7D5E96DD /* Pods-led.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -565,6 +711,7 @@
 		};
 		D9208C7121BD713E00F02DE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE50F88BC1687915D6B24CD4 /* Pods-led.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
