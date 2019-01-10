@@ -30,6 +30,10 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
 	</dict>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Utilisation de Health Kit</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Mise a jour de Health Kit</string>
 	<key>WKExtensionDelegateClassName</key>
 	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
 </dict>

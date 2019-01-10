@@ -13,9 +13,8 @@ import WatchConnectivity
 
 class ViewController: UIViewController, ChromaColorPickerDelegate,WCSessionDelegate {
     
-    
-        var session: WCSession?
-    
+    var session: WCSession?
+    var currentType = 1
     
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
         
@@ -42,7 +41,7 @@ class ViewController: UIViewController, ChromaColorPickerDelegate,WCSessionDeleg
     @IBAction func UpdateColor(_ sender: Any) {
         
         
-        let col = UIColor(hexString: neatColorPicker.hexLabel.text!)
+        _ = UIColor(hexString: neatColorPicker.hexLabel.text!,currentType:self.currentType,session : self.session)
 
     }
     
@@ -96,6 +95,20 @@ class ViewController: UIViewController, ChromaColorPickerDelegate,WCSessionDeleg
 
     }
     
+    @IBAction func changeType(_ sender: UIButton) {
+        for view in self.view.subviews as [UIView] {
+            if let btn = view as? UIButton {
+                btn.backgroundColor = UIColor.lightGray
+                btn.setTitleColor(.black, for: .normal)
+            }
+        }
+        sender.backgroundColor = UIColor.darkGray
+        sender.setTitleColor(.white, for: .normal)
+        self.currentType = sender.tag
+    }
+    
+    
+    
 }
 
 func changeColor(red:String,blue:String,green:String){
@@ -112,9 +125,25 @@ func changeColor(red:String,blue:String,green:String){
     
     ref.setValue(color2)
     
+    
 }
+
+func updateWatchColor(red:String,blue:String,green:String,currentType:Int,session : WCSession?){
+    
+    if let validSession = session {
+        let iPhoneAppContext = ["blue" : blue,"red" : red,"green":green, "type":currentType] as [String : Any]
+        
+        do {
+            try validSession.updateApplicationContext(iPhoneAppContext)
+        } catch {
+            print("Something went wrong")
+        }
+    }
+    
+}
+
 extension UIColor {
-    convenience init(hexString: String, alpha: CGFloat = 1.0) {
+    convenience init(hexString: String, alpha: CGFloat = 1.0,currentType:Int,session:WCSession?) {
         let hexString: String = hexString.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         let scanner = Scanner(string: hexString)
         if (hexString.hasPrefix("#")) {
@@ -134,9 +163,12 @@ extension UIColor {
         let re = "\(r)"
         let ge  = "\(g)"
         let be  = "\(b)"
-        
-        
-        changeColor(red: re, blue:be , green: ge)
+
+        if(currentType == 1){
+            changeColor(red: re, blue:be , green: ge)
+        }else{
+            updateWatchColor(red: re, blue:be , green: ge, currentType:currentType,session:session)
+        }
     }
     func toHexString() -> String {
         var r:CGFloat = 0
